@@ -1,0 +1,19 @@
+{
+  "name": "freedictionaryapi",
+  "version": "1.0.0",
+  "description": "There was no free Dictionary API on the web when I wanted one for my friend, so I created one.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Suraj Jain",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsdom": "^15.2.1",
+    "lodash": "^4.17.20",
+    "node-fetch": "^2.6.0",
+    "serialize-error": "^7.0.1"
+  }
+}
